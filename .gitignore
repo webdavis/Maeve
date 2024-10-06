@@ -1,0 +1,5 @@
+# Ignore Mac Finder generated files.
+.DS_Store
+
+# Ignore Vim swap files.
+*.sw*
