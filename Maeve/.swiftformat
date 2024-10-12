@@ -1,0 +1,11 @@
+ # Version
+ --swiftversion 5.9
+
+# Formatting options
+--indent 2
+--stripunusedargs always
+--trimwhitespace always
+
+# Rules
+
+--enable isEmpty # Enable the use of `isEmpty` instead of checking `count`.
