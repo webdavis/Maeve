@@ -6,3 +6,6 @@
 
 # Ignore Xcode User Interface state (e.g.: layout of windows, open files, etc.)
 *.xcuserstate
+
+# Xcode user settings.
+xcuserdata/
