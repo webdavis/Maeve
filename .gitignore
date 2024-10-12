@@ -2,7 +2,7 @@
 .DS_Store
 
 # Ignore Vim swap files.
-*.sw*
+*.sw[po]
 
 # Ignore Xcode User Interface state (e.g.: layout of windows, open files, etc.)
 *.xcuserstate
