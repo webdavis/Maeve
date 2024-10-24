@@ -8,3 +8,9 @@ additional little features, as inspiration strikes.
 
 For details on how to contribute, check out the
 [CONTRIBUTING.md](./CONTRIBUTING.md#getting-started) file.
+
+## Gallery
+
+### Hello World!
+
+![Maeve's Hello World!](gallery/2024-10-15-maeve-hello-world.png)
