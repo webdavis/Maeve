@@ -1,4 +1,4 @@
-# 🤝🏼Contributing to Maeve
+# 🤝🏼 Contributing to Maeve
 
 Maeve is a side project, but all contributions are welcome and appreciated! Whether big or
 small, your input helps improve the project. Here are a few ways you can contribute:
