@@ -4,14 +4,14 @@ A cute little side project I’m building in public. Will (eventually) be a simp
 app that provides the high low, and current temperature for the day, perhaps with some fun
 additional little features, as inspiration strikes.
 
-- [Gallery](#gallery)
-  - [Hello World!](#hello-world)
-- [Up Next…](#up-next)
-- [How to Work on this Project](#how-to-work-on-this-project)
+- [📸 Gallery](#gallery)
+  - [👋🏼 Hello World!](#hello-world)
+- [📆 Up Next…](#up-next)
+- [🤝🏼 How to Work on this Project](#how-to-work-on-this-project)
 
 ## Gallery
 
-### Hello World!
+### 👋🏼 Hello World!
 
 ![Maeve's Hello World!](gallery/2024-10-15-maeve-hello-world.png)
 

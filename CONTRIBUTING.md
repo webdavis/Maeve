@@ -1,4 +1,4 @@
-# Contributing to Maeve
+# 🤝🏼Contributing to Maeve
 
 Maeve is a side project, but all contributions are welcome and appreciated! Whether big or
 small, your input helps improve the project. Here are a few ways you can contribute:
@@ -13,7 +13,7 @@ You can either open an Issue or submit a Pull Request (PR) for any of the above.
 submitting a PR, you’ll need to set up your development environment. See the \[Setting up Your
 Dev Environment\]\[#setting-up-your-dev-environment\] section below.
 
-## Setting up Your Dev Environment
+## 🛠️ Setting up Your Dev Environment
 
 This project requires `Xcode 16` and `Swift 6`.
 
