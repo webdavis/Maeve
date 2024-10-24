@@ -14,3 +14,9 @@ For details on how to contribute, check out the
 ### Hello World!
 
 ![Maeve's Hello World!](gallery/2024-10-15-maeve-hello-world.png)
+
+#### 📆 Up Next…
+
+- [ ] Start tracking a dependency diagram for this project to inform architecture choices
+- [ ] Display the high and low temperature using a free (preferably open-source) weather API
+- [ ] Stop just goofing around and finally set up tests and CI for things
