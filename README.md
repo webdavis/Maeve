@@ -11,7 +11,7 @@ additional little features, as inspiration strikes.
 - [📸 Gallery](#-gallery)
   - [👋🏼 Hello World!](#-hello-world)
 - [📆 Up Next…](#-up-next)
-- [🤝🏼 How to Work on this Project](#-how-to-work-on-this-project)
+- [🤝🏼 How You can Contribute to this Project](#-how-you-can-contribute-to-this-project)
 
 ## Gallery
 
@@ -25,6 +25,6 @@ additional little features, as inspiration strikes.
 - [ ] Display the high and low temperature using a free (preferably open-source) weather API
 - [ ] Stop just goofing around and finally set up tests and CI for things
 
-## 🤝🏼 How to Work on this Project
+## 🤝🏼 How You can Contribute to this Project
 
-For details on how to work on this project, see [CONTRIBUTING.md](./CONTRIBUTING.md#getting-started).
+For details on how to contribute to this project, see [CONTRIBUTING.md](./CONTRIBUTING.md#getting-started).
