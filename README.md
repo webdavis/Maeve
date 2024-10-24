@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="./gallery/maeve-icon-1.png" alt="Maeve Icon" width="300" height="300">
+</p>
+
 # Maeve
 
 A cute little side project I’m building in public. Will (eventually) be a simple iOS weather
