@@ -13,6 +13,13 @@ additional little features, as inspiration strikes.
 - [📆 Up Next…](#-up-next)
 - [🤝🏼 How You can Contribute to this Project](#-how-you-can-contribute-to-this-project)
 
+## Architecture
+
+This is a module-level abstraction of the dependency graph for Maeve. For now, I can separate
+concerns using folders as "virtual modules." This gives me something to aim at!
+
+<img src="./dependency-diagram.svg" alt="Dependency Diagram" width="400" height="400">
+
 ## Gallery
 
 ### 👋🏼 Hello World!
