@@ -1,11 +1,11 @@
 import UIKit
 
 class WeatherStatusViewController: UIViewController {
-  @IBOutlet var weatherStatus: UILabel!
+  @IBOutlet var weatherDescription: UILabel!
 
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    weatherStatus.text = "It's Sunny!"
+    weatherDescription.text = "It's Sunny!"
   }
 }
