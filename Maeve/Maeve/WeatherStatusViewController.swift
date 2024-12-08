@@ -9,19 +9,20 @@ class WeatherStatusViewController: UIViewController {
 
     weatherDescription.text = "It's Sunny!"
     let emoji = "⛅️"
-    if let image = generateImage(from: emoji) {
+    if let image = generateImage(from: emoji, size: weatherSymbol.bounds.size) {
       weatherSymbol.image = image
     }
   }
+}
 
-  func generateImage(from text: String) -> UIImage? {
-    let size = CGSize(width: 50, height: 50)
+extension WeatherStatusViewController {
+  func generateImage(from text: String, size: CGSize) -> UIImage? {
     UIGraphicsBeginImageContextWithOptions(size, false, 0)
     let context = UIGraphicsGetCurrentContext()
     context?.setFillColor(UIColor.clear.cgColor)
     context?.fill(CGRect(origin: .zero, size: size))
 
-    let attributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 50)]
+    let attributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: size.height)]
     let attributedText = NSAttributedString(string: text, attributes: attributes)
 
     let rect = CGRect(origin: .zero, size: size)
