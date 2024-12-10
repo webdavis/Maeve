@@ -6,7 +6,7 @@ This file is just a place for me to jot down tasks/goals for this app.
 
 - [ ] Create Requirements for this app in the form of user stories, use cases, an API contract,
   and model specs
-- [ ] Enhance the resolution of [dependency diagram](./dependency-diagram.svg) and identify a
+- [ ] Enhance the resolution of [dependency diagram](../dependency-diagram.svg) and identify a
   clear interface boundary (e.g., a `WeatherLoader`, or something like that) to guide development
 
 ## User-Facing Features and Functionality
