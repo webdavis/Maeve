@@ -8,6 +8,11 @@ A cute little side project I’m building in public. Will (eventually) be a simp
 app that provides the high low, and current temperature for the day, perhaps with some fun
 additional little features, as inspiration strikes.
 
+- [Weather Dashboard Features](#weather-dashboard-feature)
+  - [Story: Customer requests to see their weather dashboard](#story-customer-requests-to-see-their-weather-dashboard)
+- [Use Cases](#use-cases)
+  - [Load Weather From Remote Use Case](#load-weather-from-remote-use-case)
+- [📐 Architecture](#-architecture)
 - [📸 Gallery](#-gallery)
   - [👋🏼 Hello World!](#-hello-world)
 - [📆 Up Next…](#-up-next)
@@ -63,14 +68,14 @@ Given the customer has connectivity
 
 1. System requests location permissions from OS.
 
-## Architecture
+## 📐 Architecture
 
 This is a module-level abstraction of the dependency graph for Maeve. For now, I can separate
 concerns using folders as "virtual modules." This gives me something to aim at!
 
 <img src="./dependency-diagram.svg" alt="Dependency Diagram" width="400" height="400">
 
-## Gallery
+## 📸 Gallery
 
 ### 👋🏼 Hello World!
 
@@ -78,7 +83,7 @@ concerns using folders as "virtual modules." This gives me something to aim at!
 
 ## 📆 Up Next…
 
-- [ ] Start tracking a dependency diagram for this project to inform architecture choices
+- [x] Start tracking a dependency diagram for this project to inform architecture choices
 - [ ] Display the high and low temperature using a free (preferably open-source) weather API
 - [ ] Stop just goofing around and finally set up tests and CI for things
 
