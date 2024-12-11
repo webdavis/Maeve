@@ -20,3 +20,19 @@ each day. I’m still getting the hang of it, so building consistency is my top 
     - Next up is writing out requirements for this feature via user stories, use cases, an API contract, and model specs.
   - Gave `todo.md` a face-lift: just organized tasks into categories and arranged them by priority.
   - Had to revisit `git rebase` because I realized I want this log to always be committed independently.
+
+## Tuesday, 2024-12-10
+
+- 2:49h (2153-0042): Defining Requirements
+  - Refactored the `Project Management` task list.
+  - Wrote a vague user story about loading the weather dashboard.
+  - Did some research on how to write good user stories and improved that user story.
+  - Did some research on how to discover use cases from user stories and then defined a use case.
+  - Next steps:
+    - Create a flow chart based on the use case.
+    - Increase the resolution of the [dependency diagram](../dependency-diagram.svg).
+    - Choose a weather API.
+    - Snapshot an API request (contract).
+    - Define model specs (based on contract).
+    - Code a clear interface boundary.
+    - Write enough code to implement that boundary.
