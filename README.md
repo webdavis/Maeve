@@ -15,22 +15,23 @@ additional little features, as inspiration strikes.
 
 ## Weather Dashboard Feature
 
-### Story: User requests to see the weather dashboard
+### Story: Customer requests to see their weather dashboard
 
 #### Narrative #1
 
 ```
-As a user
-I want the app to load the dashboard
-So that I can see the dashboard
+As an online customer
+I want the app to automatically load the latest weather on my dashboard based on my currently detected location
+So that I can quickly see the latest temperature reading without manually entering my location
 ```
 
 #### Scenario (Acceptance Criteria)
 
 ```
-Given a user
-When the user opens the dashboard
-Then the dashboard is displayed
+Given the customer has connectivity
+  And the customer has location services enabled
+ When the customer requests to see their weather dashboard
+ Then the app should display the latest weather for that location from (remote)
 ```
 
 ## Architecture
