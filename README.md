@@ -34,6 +34,35 @@ Given the customer has connectivity
  Then the app should display the latest weather for that location from (remote)
 ```
 
+## Use Cases
+
+### Load Weather From Remote Use Case
+
+#### Data:
+
+- URL
+- Longitude and Latitude coordinates
+
+#### Primary Course (happy path):
+
+1. Execute "Load Weather Dashboard" command with above data.
+1. System downloads data from the URL using the longitude and latitude.
+1. System validates downloaded data.
+1. System generates a weather dashboard from validated data.
+1. System delivers weather dashboard.
+
+#### Invalid Data - error course (sad path):
+
+1. System delivers invalid data error.
+
+#### No connectivity - error course (sad path):
+
+1. System delivers connectivity error.
+
+#### Location services not enabled - error course (sad path):
+
+1. System requests location permissions from OS.
+
 ## Architecture
 
 This is a module-level abstraction of the dependency graph for Maeve. For now, I can separate
