@@ -13,6 +13,26 @@ additional little features, as inspiration strikes.
 - [📆 Up Next…](#-up-next)
 - [🤝🏼 How You can Contribute to this Project](#-how-you-can-contribute-to-this-project)
 
+## Weather Dashboard Feature
+
+### Story: User requests to see the weather dashboard
+
+#### Narrative #1
+
+```
+As a user
+I want the app to load the dashboard
+So that I can see the dashboard
+```
+
+#### Scenario (Acceptance Criteria)
+
+```
+Given a user
+When the user opens the dashboard
+Then the dashboard is displayed
+```
+
 ## Architecture
 
 This is a module-level abstraction of the dependency graph for Maeve. For now, I can separate
