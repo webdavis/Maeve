@@ -39,6 +39,13 @@ Given the customer has connectivity
  Then the app should display the latest weather for that location from (remote)
 ```
 
+```
+Given the customer has connectivity
+  But the customer doesn't have location services enabled
+ When the customer requests to see their weather dashboard
+ Then the app should display a "location services disabled" error message
+```
+
 ## Use Cases
 
 ### Load Weather From Remote Use Case
@@ -56,6 +63,10 @@ Given the customer has connectivity
 1. System generates a weather dashboard from validated data.
 1. System delivers weather dashboard.
 
+#### Location services disabled - error course (sad path):
+
+1. System requests location permissions from OS.
+
 #### Invalid Data - error course (sad path):
 
 1. System delivers invalid data error.
@@ -63,10 +74,6 @@ Given the customer has connectivity
 #### No connectivity - error course (sad path):
 
 1. System delivers connectivity error.
-
-#### Location services not enabled - error course (sad path):
-
-1. System requests location permissions from OS.
 
 ## 📐 Architecture
 
