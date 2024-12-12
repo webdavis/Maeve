@@ -12,6 +12,7 @@ additional little features, as inspiration strikes.
   - [Story: Customer requests to see their weather dashboard](#story-customer-requests-to-see-their-weather-dashboard)
 - [Use Cases](#use-cases)
   - [Load Weather From Remote Use Case](#load-weather-from-remote-use-case)
+- [→ Flow Chart](#-flow-chart)
 - [📐 Architecture](#-architecture)
 - [📸 Gallery](#-gallery)
   - [👋🏼 Hello World!](#-hello-world)
@@ -74,6 +75,10 @@ Given the customer has connectivity
 #### No connectivity - error course (sad path):
 
 1. System delivers connectivity error.
+
+## → Flow Chart
+
+<img src="./weather-dashboard-feature-flow-chart.svg" alt="Flow Chart" width="500" height="500">
 
 ## 📐 Architecture
 
