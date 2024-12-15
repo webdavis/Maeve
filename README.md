@@ -78,14 +78,14 @@ Given the customer has connectivity
 
 ## → Flow Chart
 
-<img src="./weather-dashboard-feature-flow-chart.svg" alt="Flow Chart" width="500" height="500">
+<img src="./weather-dashboard-feature-flow-chart.png" alt="Flow Chart" width="500" height="500">
 
 ## 📐 Architecture
 
 This is a module-level abstraction of the dependency graph for Maeve. For now, I can separate
 concerns using folders as "virtual modules." This gives me something to aim at!
 
-<img src="./dependency-diagram.svg" alt="Dependency Diagram" width="500" height="500">
+<img src="./dependency-diagram.png" alt="Dependency Diagram" width="500" height="500">
 
 ## 📸 Gallery
 
