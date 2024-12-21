@@ -82,10 +82,13 @@ Given the customer has connectivity
 
 ## 📐 Architecture
 
-This is a module-level abstraction of the dependency graph for Maeve. For now, I can separate
-concerns using folders as "virtual modules." This gives me something to aim at!
-
 <img src="./dependency-diagram.png" alt="Dependency Diagram" width="500" height="500">
+
+This is a module-level abstraction of the dependency graph for Maeve. For now, I can separate
+concerns using folders as "virtual modules." Eventually, modules will be injected at the
+Main/App/DI Layer.
+
+This is good enough for now and gives me something to aim at!
 
 ## 📸 Gallery
 
