@@ -49,20 +49,10 @@
 		DCE9E91B2CBA090900716996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		DCBCC3EC2D17AC7300A9816B /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			publicHeaders = (
-				LocationKit.h,
-			);
-			target = DCBCC3DC2D17AC7300A9816B /* LocationKit */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		DCBCC3BB2D17A86D00A9816B /* WeatherDashboard */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = WeatherDashboard; sourceTree = "<group>"; };
 		DCBCC3C52D17A86D00A9816B /* WeatherDashboardTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = WeatherDashboardTests; sourceTree = "<group>"; };
-		DCBCC3DE2D17AC7300A9816B /* LocationKit */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (DCBCC3EC2D17AC7300A9816B /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = LocationKit; sourceTree = "<group>"; };
+		DCBCC3DE2D17AC7300A9816B /* LocationKit */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = LocationKit; sourceTree = "<group>"; };
 		DCBCC3E82D17AC7300A9816B /* LocationKitTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = LocationKitTests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
