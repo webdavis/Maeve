@@ -14,7 +14,7 @@ additional little features, as inspiration strikes.
   - [Load Weather From Remote Use Case](#load-weather-from-remote-use-case)
 - [→ Flow Chart](#-flow-chart)
 - [⛅ Weather Dashboard Model Specs](#-weather-dashboard-model-specs)
-  - [📦 Payload Contract](#-payload-contract)
+  - [📦 Payload/API Contract](#-payload-contract)
 - [📐 Architecture](#-architecture)
 - [📸 Gallery](#-gallery)
   - [👋🏼 Hello World!](#-hello-world)
@@ -123,6 +123,8 @@ curl -X GET "https://api.openweathermap.org/data/2.5/weather?lat=40.7128&lon=-74
 - **API Key**: `unique_api_key` (retrieved from https://home.openweathermap.org/api_keys)
 
 ### 📦 Payload Contract
+
+> **Note:** values that are not quoted are numbers.
 
 ```
 GET /weather?lat={LATITUDE}&long={LONGITUDE}&appid={API_KEY}
