@@ -36,3 +36,22 @@ each day. I’m still getting the hang of it, so building consistency is my top 
     - Define model specs (based on contract).
     - Code a clear interface boundary.
     - Write enough code to implement that boundary.
+
+## Saturday, 2024-12-21:
+
+- 3:36h (1511-1950): Next steps
+  - Increase the resolution of the [dependency diagram](../dependency-diagram.svg).
+    - Defined a clear `LocationProvider` protocol to abstract location-fetching details, allowing flexible implementation with `CoreLocation` and `MapKit`.
+    - Defined a clear `WeatherLoader` protocol to abstract remote and local weather data loading.
+    - Chose [OpenWeatherMap](https://openweathermap.org/api) as the API. People seem to like like it and it's stable.
+      - (This can be replaced in the future, if needed, which is the point of the `WeatherLoader` protocol. The implementation details are hidden.)
+    - Snapshotted an API request to OpenWeatherMap and defined the payload contract.
+    - Created `WeatherDashboard` feature.
+      - Defined the model specs for `WeatherData`.
+      - Coded up the interface boundary for `WeatherLoader`.
+        - These may change in the future, but for now this is a decent boundary to aim at.
+    - Created `LocationKit` feature.
+      - Defined model specs for `LocationData`.
+      - Coded up the interface boundary for `LocationProvider`.
+    - Added a flow chart for the first steps of the **Weather Dashboard Feature**.
+    - Updated the dependency diagram.
