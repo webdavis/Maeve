@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DCBCC3C22D17A86D00A9816B /* WeatherDashboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBCC3BA2D17A86D00A9816B /* WeatherDashboard.framework */; };
+		DCBCC3E52D17AC7300A9816B /* LocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBCC3DD2D17AC7300A9816B /* LocationKit.framework */; };
 		DCE9E90E2CBA090800716996 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE9E90D2CBA090800716996 /* AppDelegate.swift */; };
 		DCE9E9102CBA090800716996 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE9E90F2CBA090800716996 /* SceneDelegate.swift */; };
 		DCE9E9122CBA090800716996 /* WeatherStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE9E9112CBA090800716996 /* WeatherStatusViewController.swift */; };
@@ -24,11 +25,20 @@
 			remoteGlobalIDString = DCBCC3B92D17A86D00A9816B;
 			remoteInfo = WeatherDashboard;
 		};
+		DCBCC3E62D17AC7300A9816B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCE9E9022CBA090700716996 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCBCC3DC2D17AC7300A9816B;
+			remoteInfo = LocationKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DCBCC3BA2D17A86D00A9816B /* WeatherDashboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WeatherDashboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCBCC3C12D17A86D00A9816B /* WeatherDashboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherDashboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCBCC3DD2D17AC7300A9816B /* LocationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCBCC3E42D17AC7300A9816B /* LocationKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE9E90A2CBA090700716996 /* Maeve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maeve.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE9E90D2CBA090800716996 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCE9E90F2CBA090800716996 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,9 +49,21 @@
 		DCE9E91B2CBA090900716996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DCBCC3EC2D17AC7300A9816B /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			publicHeaders = (
+				LocationKit.h,
+			);
+			target = DCBCC3DC2D17AC7300A9816B /* LocationKit */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		DCBCC3BB2D17A86D00A9816B /* WeatherDashboard */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = WeatherDashboard; sourceTree = "<group>"; };
 		DCBCC3C52D17A86D00A9816B /* WeatherDashboardTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = WeatherDashboardTests; sourceTree = "<group>"; };
+		DCBCC3DE2D17AC7300A9816B /* LocationKit */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (DCBCC3EC2D17AC7300A9816B /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = LocationKit; sourceTree = "<group>"; };
+		DCBCC3E82D17AC7300A9816B /* LocationKitTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = LocationKitTests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +79,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCBCC3C22D17A86D00A9816B /* WeatherDashboard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBCC3DA2D17AC7300A9816B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBCC3E12D17AC7300A9816B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCBCC3E52D17AC7300A9816B /* LocationKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +113,8 @@
 				DCE9E90C2CBA090700716996 /* Maeve */,
 				DCBCC3BB2D17A86D00A9816B /* WeatherDashboard */,
 				DCBCC3C52D17A86D00A9816B /* WeatherDashboardTests */,
+				DCBCC3DE2D17AC7300A9816B /* LocationKit */,
+				DCBCC3E82D17AC7300A9816B /* LocationKitTests */,
 				DCE9E90B2CBA090700716996 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,6 +125,8 @@
 				DCE9E90A2CBA090700716996 /* Maeve.app */,
 				DCBCC3BA2D17A86D00A9816B /* WeatherDashboard.framework */,
 				DCBCC3C12D17A86D00A9816B /* WeatherDashboardTests.xctest */,
+				DCBCC3DD2D17AC7300A9816B /* LocationKit.framework */,
+				DCBCC3E42D17AC7300A9816B /* LocationKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +149,13 @@
 
 /* Begin PBXHeadersBuildPhase section */
 		DCBCC3B52D17A86D00A9816B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBCC3D82D17AC7300A9816B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -163,6 +211,52 @@
 			productReference = DCBCC3C12D17A86D00A9816B /* WeatherDashboardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		DCBCC3DC2D17AC7300A9816B /* LocationKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCBCC3ED2D17AC7300A9816B /* Build configuration list for PBXNativeTarget "LocationKit" */;
+			buildPhases = (
+				DCBCC3D82D17AC7300A9816B /* Headers */,
+				DCBCC3D92D17AC7300A9816B /* Sources */,
+				DCBCC3DA2D17AC7300A9816B /* Frameworks */,
+				DCBCC3DB2D17AC7300A9816B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DCBCC3DE2D17AC7300A9816B /* LocationKit */,
+			);
+			name = LocationKit;
+			packageProductDependencies = (
+			);
+			productName = LocationKit;
+			productReference = DCBCC3DD2D17AC7300A9816B /* LocationKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DCBCC3E32D17AC7300A9816B /* LocationKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCBCC3F02D17AC7300A9816B /* Build configuration list for PBXNativeTarget "LocationKitTests" */;
+			buildPhases = (
+				DCBCC3E02D17AC7300A9816B /* Sources */,
+				DCBCC3E12D17AC7300A9816B /* Frameworks */,
+				DCBCC3E22D17AC7300A9816B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCBCC3E72D17AC7300A9816B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DCBCC3E82D17AC7300A9816B /* LocationKitTests */,
+			);
+			name = LocationKitTests;
+			packageProductDependencies = (
+			);
+			productName = LocationKitTests;
+			productReference = DCBCC3E42D17AC7300A9816B /* LocationKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		DCE9E9092CBA090700716996 /* Maeve */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCE9E91E2CBA090900716996 /* Build configuration list for PBXNativeTarget "Maeve" */;
@@ -198,6 +292,12 @@
 					DCBCC3C02D17A86D00A9816B = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					DCBCC3DC2D17AC7300A9816B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					DCBCC3E32D17AC7300A9816B = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					DCE9E9092CBA090700716996 = {
 						CreatedOnToolsVersion = 15.1;
 					};
@@ -219,6 +319,8 @@
 				DCE9E9092CBA090700716996 /* Maeve */,
 				DCBCC3B92D17A86D00A9816B /* WeatherDashboard */,
 				DCBCC3C02D17A86D00A9816B /* WeatherDashboardTests */,
+				DCBCC3DC2D17AC7300A9816B /* LocationKit */,
+				DCBCC3E32D17AC7300A9816B /* LocationKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,6 +334,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DCBCC3BF2D17A86D00A9816B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBCC3DB2D17AC7300A9816B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBCC3E22D17AC7300A9816B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -286,6 +402,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DCBCC3D92D17AC7300A9816B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBCC3E02D17AC7300A9816B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DCE9E9062CBA090700716996 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -303,6 +433,11 @@
 			isa = PBXTargetDependency;
 			target = DCBCC3B92D17A86D00A9816B /* WeatherDashboard */;
 			targetProxy = DCBCC3C32D17A86D00A9816B /* PBXContainerItemProxy */;
+		};
+		DCBCC3E72D17AC7300A9816B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCBCC3DC2D17AC7300A9816B /* LocationKit */;
+			targetProxy = DCBCC3E62D17AC7300A9816B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -430,6 +565,114 @@
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.webdavis.WeatherDashboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DCBCC3EE2D17AC7300A9816B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KPL4DJ569T;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.webdavis.LocationKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DCBCC3EF2D17AC7300A9816B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KPL4DJ569T;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.webdavis.LocationKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DCBCC3F12D17AC7300A9816B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KPL4DJ569T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.webdavis.LocationKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DCBCC3F22D17AC7300A9816B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KPL4DJ569T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.webdavis.LocationKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -665,6 +908,24 @@
 			buildConfigurations = (
 				DCBCC3CB2D17A86D00A9816B /* Debug */,
 				DCBCC3CC2D17A86D00A9816B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCBCC3ED2D17AC7300A9816B /* Build configuration list for PBXNativeTarget "LocationKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCBCC3EE2D17AC7300A9816B /* Debug */,
+				DCBCC3EF2D17AC7300A9816B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCBCC3F02D17AC7300A9816B /* Build configuration list for PBXNativeTarget "LocationKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCBCC3F12D17AC7300A9816B /* Debug */,
+				DCBCC3F22D17AC7300A9816B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
