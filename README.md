@@ -80,7 +80,7 @@ Given the customer has connectivity
 
 ## → Flow Chart
 
-<img src="./weather-dashboard-feature-flow-chart.png" alt="Flow Chart" width="500" height="500">
+![](./weather-dashboard-feature-flow-chart.png)
 
 ## ⛅ Weather Dashboard Model Specs
 
@@ -207,7 +207,7 @@ GET /weather?lat={LATITUDE}&long={LONGITUDE}&appid={API_KEY}
 
 ## 📐 Architecture
 
-<img src="./dependency-diagram.png" alt="Dependency Diagram" width="500" height="500">
+<img src="./dependency-diagram.png" alt="Dependency Diagram" width="600" height="600">
 
 This is a module-level abstraction of the dependency graph for Maeve. For now, I can separate
 concerns using folders as "virtual modules." Eventually, modules will be injected at the
